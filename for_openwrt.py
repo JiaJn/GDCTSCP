@@ -8,11 +8,19 @@ import urllib2
 import time
 import json
 ISOTIMEFORMAT='%Y-%m-%d %X'
+<<<<<<< HEAD
 client=“0.0.0.0”                #client ip
 nasip="61.146.20.254"                  #net auth ip
 user=“user”                     #user
 password="123456"                      #password
 mac="FF-FF-FF-FF-FF-FF"               #mac address eg.FF-FF-FF-FF-FF-FF
+=======
+client="0.0.0.0"                #client ip
+nasip="61.146.20.254"                  #net auth ip
+user="user"                     #user
+password="123456"                      #password
+mac="00-00-00-00-00-00"               #mac address
+>>>>>>> origin/GDWL-esurfing
 wifi="4060"
 url="http://enet.10000.gd.cn:10001/client/"
 login = url + "login"
