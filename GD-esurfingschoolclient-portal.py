@@ -9,7 +9,7 @@ import time
 import json
 ISOTIMEFORMAT='%Y-%m-%d %X'
 client="0.0.0.0"                #client ip
-nasip=“0.0.0.0”                  #net auth ip
+nasip="0.0.0.0"                 #net auth ip
 user="user"                     #user
 password="123456"                      #password
 mac="FF-FF-FF-FF-FF-FF"               #mac address
@@ -147,7 +147,7 @@ while 1:
                     str2=r.split('\"')[3]
                     if (str2=="1"):
                         exit()
-                    else:
+                    elif(str2=="0"):
                         break
             loginl()
         time.sleep(60)
