@@ -8,28 +8,12 @@ import urllib2
 import time
 import json
 ISOTIMEFORMAT='%Y-%m-%d %X'
-<<<<<<< HEAD
-<<<<<<< HEAD
-client="0.0.0.0"                #client ip
-nasip="0.0.0.0"                 #net auth ip
-user="user"                     #user
-password="123456"                      #password
-mac="FF-FF-FF-FF-FF-FF"               #mac address
-wifi="4060"
-=======
-=======
->>>>>>> master
 client=“0.0.0.0”                #client ip
-nasip=“0.0.0.0”                 #net auth ip
-user=“user“                     #user
+nasip="61.146.20.254"                 #net auth ip
+user=“user”                     #user
 password=“password”                      #password
-mac=“FF-FF-FF-FF-FF-FF“               #mac address eg.FF-FF-FF-FF-FF-FF
-<<<<<<< HEAD
-wifi="4060"			#LOGIN
->>>>>>> master
-=======
-wifi="1050"			#LOGIN
->>>>>>> master
+mac=“FF-FF-FF-FF-FF-FF”               #mac address eg.FF-FF-FF-FF-FF-FF
+wifi="1050"
 url="http://enet.10000.gd.cn:10001/client/"
 login = url + "login"
 challenge = url + "challenge"
@@ -161,17 +145,7 @@ while 1:
                 print Now_time()+encoding(r)
                 if (r!="x"):
                     str2=r.split('\"')[3]
-<<<<<<< HEAD
-<<<<<<< HEAD
-                    if (str2=="1"):
-                        exit()
-                    elif(str2=="0"):
-=======
                     if (str2=="0"):
->>>>>>> master
-=======
-                    if (str2=="0"):
->>>>>>> master
                         break
             loginl()
             

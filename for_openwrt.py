@@ -9,19 +9,26 @@ import time
 import json
 ISOTIMEFORMAT='%Y-%m-%d %X'
 <<<<<<< HEAD
+<<<<<<< HEAD
 client=“0.0.0.0”                #client ip
 nasip=“0.0.0.0”                  #net auth ip
 user=“user”                     #user
 password="123456"                      #password
 mac=“FF-FF-FF-FF-FF-FF”               #mac address
 =======
+=======
+>>>>>>> master
 client="0.0.0.0"                #client ip
 nasip=“0.0.0.0”                 #net auth ip
 user="user"                     #user
 password="password"                      #password
 mac="FF-FF-FF-FF-FF-FF"               #mac address eg.FF-FF-FF-FF-FF-FF
+<<<<<<< HEAD
 >>>>>>> master
 wifi="4060"
+=======
+wifi="1050"
+>>>>>>> master
 url="http://enet.10000.gd.cn:10001/client/"
 login = url + "login"
 challenge = url + "challenge"
